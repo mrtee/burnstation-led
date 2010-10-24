@@ -99,7 +99,7 @@ oszlopujra
     xorlw	0xff
     movwf	trioszlop
 
-;   ez a resz talalja ki a polaitast
+;   ez a resz talalja ki a polaritast
 
     call	rand
     btfsc	randomlo,0
